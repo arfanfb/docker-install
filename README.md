@@ -37,6 +37,13 @@ To verify that the install script works amongst the supported operating systems 
 make shellcheck
 ```
 
+## Permission directory issue
+
+```shell
+sudo chmod 666 /var/run/docker.sock
+
+```
+
 ## Legal
 *Brought to you courtesy of our legal counsel. For more context,
 please see the [NOTICE](NOTICE) document in this repo.*
